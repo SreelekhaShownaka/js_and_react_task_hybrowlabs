@@ -1,0 +1,43 @@
+.container {
+  width: 300px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.add-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+}
+
+.header {
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+.cell {
+  padding: 10px;
+  flex: 1;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
